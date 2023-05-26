@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Nunito+Sans:wght@300&family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    background-color: #eeeede;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    height: 10%;
+    width: 20%;
+    margin-left: 40%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.keys-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.keys-container p {
+    margin-bottom: 5px;
+}
+
+.typing-box {
+    width: 100%;
+    height: 100px;
+    padding: 17px;
+    border: 1px solid #379194;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.start-btn,
+.finish-btn,
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2cce3a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.finish-btn {
+    background-color: #2c57ce;
+    color: #fff;
+}
+
+.reset-btn {
+    background-color: #ce4c2c;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #7231bd;
+}
+
+.stats-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stats-container p {
+    margin-bottom: 5px;
+}
