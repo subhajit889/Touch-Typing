@@ -11,18 +11,34 @@
 
 
 .container {
-    max-width: 600px;
-    margin: 80px auto;
+    max-width: 630px;
+    margin: 28px auto;
     background-color: #eeeede;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-img {
+.logo {
     height: 10%;
     width: 20%;
     margin-left: 40%;
+}
+
+.sample h2 {
+    font-size: 15px;
+    font-weight: 50;
+    text-align: center;
+    margin-top: 10px;
+    color: #4c2853;
+    /* border: 1px solid black; */
+}
+
+.sample img {
+    height: auto;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 14%
 }
 
 p {
@@ -36,6 +52,7 @@ p {
 
 h1 {
     text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
@@ -59,6 +76,10 @@ h2 {
     border-radius: 5px;
     resize: none;
     font-size: 16px;
+}
+
+.incorrect-key {
+    border-color: red;
 }
 
 .buttons-container {
@@ -101,3 +122,19 @@ button:hover {
 .stats-container p {
     margin-bottom: 5px;
 }
+
+.timer-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .timer-container p {
+    font-size: 18px;
+  }
+  
+  .timer-container select {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
