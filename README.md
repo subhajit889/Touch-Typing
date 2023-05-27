@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+******This project was bootstrapped with Create React App.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+"Touch-Typing" A Typing Detector App:
+The Typing Detector App is a simple application designed to help users practice touch typing by providing a random key to type and measuring their typing accuracy and speed. This repository contains the source code for the Typing Detector App built with React and Redux.
 
-In the project directory, you can run:
+Features:
+Generates a random key for the user to type from the set of keys 'asdfjkl;'.
+Measures typing accuracy and displays it as a percentage.
+Calculates typing speed in letters per minute.
+Allows the user to set the duration of the typing session.
+Provides audio feedback (beep sound) for incorrect key presses.
+Displays a visual guide for finger alignment during typing practice.
+Supports starting, finishing, and resetting the typing session.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation:
+Follow these steps to run the Typing Detector App on your local machine:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the repository(Do not copy the ** marked part)
+For cloning repo Copy following code:
 
-### `npm test`
+1. git clone https://github.com/your-username/typing-detector-app.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. cd typing-detector-app
 
-### `npm run build`
+3. npm install (**Install the dependencies**)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. npm start (**Start the development server**)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open your browser and visit http://localhost:3000 to access the app.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Usage:
+Once the app is running, you can:
 
-### `npm run eject`
+View the finger alignment guide for easy typing.
+Start the typing session by clicking the "Start" button.
+Type the displayed keys in the text area.
+Finish the typing session by clicking the "Finish" button.
+Reset the app to its initial state by clicking the "Reset" button.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used:
+The Typing Detector App is built using the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+React: JavaScript library for building user interfaces.
+Redux: State management library for JavaScript applications.
+CSS3: Stylesheet language for designing the app.
+HTML5: Markup language for structuring the app.
