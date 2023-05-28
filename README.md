@@ -13,7 +13,7 @@ Provides audio feedback (beep sound) for incorrect key presses.
 Displays a visual guide for finger alignment during typing practice.
 Supports starting, finishing, and resetting the typing session.
 
-View the app by clicking the link: 
+View the app by clicking the link: https://touch-typing-practice-one.vercel.app/
 
 
 Installation:
@@ -46,7 +46,7 @@ Once the app is running, you can:
 Technologies Used:
 The Typing Detector App is built using the following technologies:
 
-React: JavaScript library for building user interfaces.
-Redux: State management library for JavaScript applications.
-CSS3: Stylesheet language for designing the app.
-HTML5: Markup language for structuring the app.
+1. React: JavaScript library for building user interfaces.
+2. Redux: State management library for JavaScript applications.
+3. CSS3: Stylesheet language for designing the app.
+4. HTML5: Markup language for structuring the app.
