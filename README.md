@@ -30,7 +30,8 @@ For cloning repo Copy following code:
 
 4. npm start (**Start the development server**)
 
-Open your browser and visit http://localhost:3000 to access the app.
+It Automatically open a browser window with the app 
+If not open automatically just open your browser and visit http://localhost:3000 to access the app.
 
 Usage:
 Once the app is running, you can:
