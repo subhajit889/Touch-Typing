@@ -22,9 +22,9 @@ Follow these steps to run the Typing Detector App on your local machine:
 Clone the repository(Do not copy the ** marked part)
 For cloning repo Copy following code:
 
-1. git clone https://github.com/your-username/typing-detector-app.git
+1. git clone https://github.com/subhajit889/Touch-Typing.git
 
-2. cd typing-detector-app
+2. cd Touch-Typing
 
 3. npm install (**Install the dependencies**)
 
