@@ -13,6 +13,8 @@ Provides audio feedback (beep sound) for incorrect key presses.
 Displays a visual guide for finger alignment during typing practice.
 Supports starting, finishing, and resetting the typing session.
 
+View the app by clicking the link: 
+
 
 Installation:
 Follow these steps to run the Typing Detector App on your local machine:
@@ -33,11 +35,13 @@ Open your browser and visit http://localhost:3000 to access the app.
 Usage:
 Once the app is running, you can:
 
-View the finger alignment guide for easy typing.
-Start the typing session by clicking the "Start" button.
-Type the displayed keys in the text area.
-Finish the typing session by clicking the "Finish" button.
-Reset the app to its initial state by clicking the "Reset" button.
+1. View the finger alignment guide for easy typing.
+2. Start the typing session by clicking the "Start" button.
+3. Type the displayed keys in the text area.
+4. If You want to Finish the typing, clicking on the "Finish" button.
+5. Reset the app to its initial state by clicking the "Reset" button.
+
+
 
 Technologies Used:
 The Typing Detector App is built using the following technologies:

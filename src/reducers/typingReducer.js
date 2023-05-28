@@ -8,10 +8,9 @@ const initialState = {
     startTime: null,
     endTime: null,
     accuracy: 100,
-    timer: 60,
-    selectedTimer: 60,
+    timer: 300,
     wrongKeyBeep: null,
-    isDropdownDisabled: false,
+    correctKeyBeep: null
 };
 
 const typingReducer = (state = initialState, action) => {
@@ -31,16 +30,18 @@ const typingReducer = (state = initialState, action) => {
                 ...state,
                 pressedKeys: action.payload,
             };
+
         case 'SET_KEY_PRESSED_CORRECT':
             return {
                 ...state,
-                isKeyPressedCorrect: action.payload,
+                isKeyPressedCorrect: action.payload
             };
         case 'SET_SESSION_ACTIVE':
             return {
                 ...state,
-                isSessionActive: action.payload,
+                isSessionActive: action.payload
             };
+
         case 'SET_START_TIME':
             return {
                 ...state,
@@ -61,21 +62,19 @@ const typingReducer = (state = initialState, action) => {
                 ...state,
                 timer: action.payload,
             };
-        case 'SET_SELECTED_TIMER':
-            return {
-                ...state,
-                selectedTimer: action.payload,
-            };
         case 'SET_WRONG_KEY_BEEP':
             return {
                 ...state,
                 wrongKeyBeep: action.payload,
             };
-        case 'SET_DROPDOWN_DISABLED':
+        case 'SET_CORRECT_KEY_BEEP':
             return {
                 ...state,
-                isDropdownDisabled: action.payload,
+                correctKeyBeep: action.payload,
             };
+        case 'RESET_STATE':
+            return initialState;
+
         default:
             return state;
     }
